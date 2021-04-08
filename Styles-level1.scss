@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import './Variables';
+
+.container {
+    background-color: $background1;
+    display: flex;
+    margin: auto;
+    height: 840px;
+    align-items: center;
+    flex-direction: column;
+    width: 680px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;}
+  
+@import './Header';
+
+@import './Foto';
+
+@import './Footer';

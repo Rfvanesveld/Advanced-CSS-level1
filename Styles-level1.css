@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.container {
+  background-color: #c3cfe2;
+  display: flex;
+  margin: auto;
+  height: 840px;
+  align-items: center;
+  flex-direction: column;
+  width: 680px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+}
+
+.header {
+  margin-top: 20px;
+  background: linear-gradient(180deg, #fff 65%, #686de0 65%);
+  color: rgba(0, 0, 0, 0.699);
+  height: 800px;
+  width: 610px;
+  border-radius: 20px;
+  border: 1px transparent;
+  box-shadow: 0px 12px 5px 5px #babdc2;
+}
+.header__tekst {
+  font-size: 32px;
+  padding: 30px 30px 0px 50px;
+  text-align: left;
+  line-height: 50px;
+  justify-content: center;
+}
+
+.foto {
+  margin-top: -390px;
+  justify-content: center;
+  z-index: 1;
+}
+
+img {
+  width: 160px;
+  height: 180px;
+  border-radius: 50%;
+  border: solid 8px white;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer {
+  color: #fff;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer__naam {
+  font-size: 30px;
+  margin-top: 15px;
+}
+.footer__website {
+  font-size: 26px;
+  margin-top: 15px;
+  color: #B3B6EB;
+}/*# sourceMappingURL=Styles-level1.css.map */

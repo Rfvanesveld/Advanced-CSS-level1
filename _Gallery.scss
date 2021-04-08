@@ -1,0 +1,26 @@
+.gallery {
+    display: flex;
+    margin: 20px 80px 80px 80px;
+    flex-wrap: wrap;
+    flex-direction: row;}
+
+img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 5%;
+}
+
+.parent {
+    position: relative;
+
+    &__child2{
+        position: absolute;
+        left: 0;
+        top:0;
+        display: none;}
+
+        :hover&__child2 {
+            display: block;}
+}
